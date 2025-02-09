@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+* {
+    font-size: 36px;
+    color: #F8E9A1; /* Soft gold/yellow for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds readability */
+}
+
+.title {
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   padding-bottom: 22px;
+   font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.header {
+  font-family: 'Bubblegum Sans', sans-serif;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Bubblegum Sans', sans-serif;
+}
+
+.nav-links {
+    font-family: 'Bubblegum Sans', sans-serif;
+    display: flex; /* Keeps links next to each other */
+    gap: 20px; /* Adds space between links */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f4a261;
+}
+
+#content {
+    height: calc(100vh);
+    padding-bottom: 80px; /* Takes full screen height minus header */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    gap: 23px;
+}
+.midText {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #F8E9A1; /* Soft gold/yellow for contrast */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds readability */
+    
+}
+
+button {
+    background-color: #884EFF;  /* shiny Rebecca Purple */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #7A4CE2;  /* slightly darker shade for hover effect */
+    transform: scale(1.05);  /* subtle scale effect on hover */
+  }
+  
+  button:active {
+    transform: scale(1);  /* reset scale when button is pressed */
+  }
+
+  #midDiv {
+    display: flex;
+    flex-direction: column; /* Ensures vertical stacking of elements */
+    align-items: center; /* Centers content horizontally */
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px 20px;
+    gap: 12px;
+    padding-bottom: 45px;
+  }
+  
+  #time, #location {
+    font-size: 22px;
+    text-align: center; /* Ensure text is centered within the div */
+  }
+  
+  #location, #time {
+    margin: 0; /* Remove any default margin */
+  }
+
+  .fixed {
+    background-color: #7A4CE2;
+    position: fixed;
+    width: 100%;
+  }
