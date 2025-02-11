@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+#contact-div {
+    display: grid;
+    place-items: center;
+    background-color: #F8E9A1; /* Same background color as the menu */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 40px auto;
+    width: 100%;
+}
+
+#headerrrr {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    color: #F8E9A1; /* Gold color for the header */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.text-inside {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#contact-div p:hover {
+    color: #f4a261; /* Light orange color on hover */
+    cursor: pointer;
+}
